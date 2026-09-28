@@ -18,5 +18,4 @@ for _ in range(t):
     for dx, dy in moves:
         king_positions.add((xk + dx, yk + dy))
         queen_positions.add((xq + dx, yq + dy))
-    answer=set()
     print(len(king_positions & queen_positions))
